@@ -126,7 +126,8 @@ def download_and_extract_subtitles(search_term, output_dir):
     subtitle_links = soup.find_all('a', string=lambda text: text and (
     'English subs [eng, ASS]' in text or
     'English [eng, ASS]' in text or
-    'eng [ASS]' in text  
+    'eng [ASS]' in text or
+    '[eng, ASS]' in text   
     ))
     if not subtitle_links:
         print("No '[eng, ASS]' links found on the page.")
