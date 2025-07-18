@@ -123,7 +123,8 @@ def download_and_extract_subtitles(search_term, output_dir):
         return []
 
     os.makedirs(output_dir, exist_ok=True)
-    subtitle_links = soup.find_all('a', string=lambda text: text and ('English subs [eng, ASS]' in text or '[eng, ASS]' in text))
+    pattern = re.compile(r'(?:English subs|English|eng)\s*\[eng\]\s*\[ASS\]')
+    subtitle_links = soup.find_all('a', string=pattern)
     if not subtitle_links:
         print("No '[eng, ASS]' links found on the page.")
         return []
