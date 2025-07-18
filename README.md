@@ -2,7 +2,6 @@
 
 ![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 **AniSubDl** is a sophisticated, cross-platform command-line tool designed to streamline the process of finding and downloading English subtitles for your anime library from [Anime Tosho](https://animetosho.org).
 
@@ -18,14 +17,6 @@ It provides an interactive experience that intelligently searches for subtitles 
 - ✍️ **Interactive Renaming**: After downloading, automatically matches subtitles to your existing video files (`.mkv`, `.mp4`) and prompts you to approve renaming them for perfect media player integration.
 - 🌐 **Cross-Platform Compatibility**: Fully tested and compatible with Windows, macOS, and Linux environments.
 - ⚙️ **Zero External Dependencies**: Requires no external software installations beyond the specified Python libraries.
-
----
-
-## Demonstration
-
-*(A brief GIF or screenshot demonstrating the tool's workflow would be ideal here. For example:)*
-
-![Tool Demo](https://i.imgur.com/your-demo-image.gif)
 
 ---
 
