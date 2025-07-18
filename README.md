@@ -63,7 +63,7 @@ python subdl.py "/home/youruser/Videos/Anime"
 If you run the script without an argument, it will automatically load the path from `subdl.cfg`, if it exists.
 
 ```bash
-python download_subs.py
+python subdl.py
 ```
 > Loaded anime directory from config: C:\Users\YourUser\Videos\Anime
 
