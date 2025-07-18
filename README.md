@@ -1,10 +1,10 @@
-# Subdl: The Interactive Anime Subtitle Downloader
+# AniSubDl: The Interactive Anime Subtitle Downloader
 
 ![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
-**Subdl** is a sophisticated, cross-platform command-line tool designed to streamline the process of finding and downloading English subtitles for your anime library from [Anime Tosho](https://animetosho.org).
+**AniSubDl** is a sophisticated, cross-platform command-line tool designed to streamline the process of finding and downloading English subtitles for your anime library from [Anime Tosho](https://animetosho.org).
 
 It provides an interactive experience that intelligently searches for subtitles by leveraging both directory names and the [AniList API](https://anilist.co) for robust matching.
 
@@ -38,11 +38,9 @@ It provides an interactive experience that intelligently searches for subtitles 
 
 1.  **Clone the repository to your local machine:**
     ```bash
-    git clone https://github.com/your-username/Subdl.git
-    cd Subdl
+    git clone https://github.com/Sac-94/AniSubDl.git
+    cd AniSubDl
     ```
-    *(Remember to replace `your-username/Subdl` with your actual repository path.)*
-
 2.  **Install the required dependencies using pip:**
     ```bash
     pip install -r requirements.txt
@@ -63,10 +61,10 @@ Provide the absolute path to your anime collection directory as an argument. Thi
 
 ```bash
 # On Windows
-python download_subs.py "C:\Users\YourUser\Videos\Anime"
+python subdl.py "C:\Users\YourUser\Videos\Anime"
 
 # On macOS or Linux
-python download_subs.py "/home/youruser/Videos/Anime"
+python subdl.py "/home/youruser/Videos/Anime"
 ```
 
 #### Mode 2: Automatic Path Loading
@@ -84,7 +82,7 @@ If no argument is given and no valid configuration file is found, the script wil
 
 ### Configuration File
 
-For convenience, `Subdl` automatically saves the last successfully used anime directory to a configuration file named `subdl.cfg`. This allows you to run the script without arguments on subsequent uses.
+For convenience, `AniSubDl` automatically saves the last successfully used anime directory to a configuration file named `subdl.cfg`. This allows you to run the script without arguments on subsequent uses.
 
 ---
 
