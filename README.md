@@ -1,4 +1,4 @@
-# AniSubDl: The Interactive Anime Subtitle Downloader
+# The Interactive Anime Subtitle Downloader
 
 ![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
