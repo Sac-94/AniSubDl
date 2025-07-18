@@ -88,7 +88,7 @@ For convenience, `AniSubDl` automatically saves the last successfully used anime
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Sac-94/AniSubDl/blob/main/LICENSE) file for more details.
 
 ## Acknowledgements
 
