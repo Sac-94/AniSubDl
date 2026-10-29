@@ -6,3 +6,6 @@ dist/
 build/
 subdl.cfg
 downloads/
+.venv/
+.mypy_cache/
+.ruff_cache/
