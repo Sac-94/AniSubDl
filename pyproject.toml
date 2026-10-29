@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "anisubdl"
+version = "2.0.0"
+description = "Interactive & automated multi-provider anime subtitle downloader (Anime Tosho NEW, TsukiHime, Kitsunekko)"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+dependencies = [
+    "requests>=2.31.0",
+    "beautifulsoup4>=4.12.0",
+    "rich>=13.7.0",
+]
+
+[project.optional-dependencies]
+7z = ["py7zr>=0.21.0"]
+dev = ["pytest>=7.0.0"]
+
+[project.scripts]
+anisubdl = "anisubdl.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["anisubdl*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
